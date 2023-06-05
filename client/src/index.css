@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.image{
+    height: 5rem
+}
+form>.box>input{
+    background-color: rgb(240, 239, 239);
+    width: 22rem;
+    height:2rem;
+    padding: 20px;
+
+   
+}
+form>.box>label{
+    display:flex;
+    flex-direction: column;
+    color:rgb(176, 157, 157);
+    font-weight:500;
+    font-size: 14px;
+}
+form>.box{
+    display: flex;
+    flex-direction: column;
+}
